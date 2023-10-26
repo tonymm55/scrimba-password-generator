@@ -40,7 +40,11 @@ button{
     font-family: var(--body);
     border: none;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    
+    cursor: pointer;
+}
+
+button:hover {
+  color: green; /* Change color on hover if desired */
 }
 
 button > img{
@@ -114,14 +118,4 @@ hr{
     background: var(--grey-700);
     height: 1px;
     border: none;
-}
-
-.copy-icon {
-  cursor: pointer;
-  margin-left: 10px;
-  font-size: 20px;
-}
-
-.copy-icon:hover {
-  color: #007bff; /* Change color on hover if desired */
 }
